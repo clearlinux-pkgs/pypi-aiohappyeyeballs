@@ -6,13 +6,13 @@
 # autospec commit: f35655a
 #
 Name     : pypi-aiohappyeyeballs
-Version  : 2.3.5
-Release  : 2
-URL      : https://files.pythonhosted.org/packages/b7/c3/112f2f992aeb321de483754c1c5acab08c8ac3388c9c7e6f3e4f45ec1c42/aiohappyeyeballs-2.3.5.tar.gz
-Source0  : https://files.pythonhosted.org/packages/b7/c3/112f2f992aeb321de483754c1c5acab08c8ac3388c9c7e6f3e4f45ec1c42/aiohappyeyeballs-2.3.5.tar.gz
+Version  : 2.3.6
+Release  : 3
+URL      : https://files.pythonhosted.org/packages/4f/55/95979cc0ba980ebbdc0076b6629176668815e0689c1448d1fcb4535b209a/aiohappyeyeballs-2.3.6.tar.gz
+Source0  : https://files.pythonhosted.org/packages/4f/55/95979cc0ba980ebbdc0076b6629176668815e0689c1448d1fcb4535b209a/aiohappyeyeballs-2.3.6.tar.gz
 Summary  : Happy Eyeballs for asyncio
 Group    : Development/Tools
-License  : Python-2.0
+License  : Python-2.0 Python-2.0.1
 Requires: pypi-aiohappyeyeballs-license = %{version}-%{release}
 Requires: pypi-aiohappyeyeballs-python = %{version}-%{release}
 Requires: pypi-aiohappyeyeballs-python3 = %{version}-%{release}
@@ -82,15 +82,15 @@ python3 components for the pypi-aiohappyeyeballs package.
 
 
 %prep
-%setup -q -n aiohappyeyeballs-2.3.5
-cd %{_builddir}/aiohappyeyeballs-2.3.5
+%setup -q -n aiohappyeyeballs-2.3.6
+cd %{_builddir}/aiohappyeyeballs-2.3.6
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1723653157
+export SOURCE_DATE_EPOCH=1723783477
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
