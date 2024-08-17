@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-aiohappyeyeballs
-Version  : 2.3.6
-Release  : 3
-URL      : https://files.pythonhosted.org/packages/4f/55/95979cc0ba980ebbdc0076b6629176668815e0689c1448d1fcb4535b209a/aiohappyeyeballs-2.3.6.tar.gz
-Source0  : https://files.pythonhosted.org/packages/4f/55/95979cc0ba980ebbdc0076b6629176668815e0689c1448d1fcb4535b209a/aiohappyeyeballs-2.3.6.tar.gz
+Version  : 2.3.7
+Release  : 4
+URL      : https://files.pythonhosted.org/packages/a7/64/889100848dea8a797215dbacbcf15367e2bd797b879aaf9df5c78d7c3200/aiohappyeyeballs-2.3.7.tar.gz
+Source0  : https://files.pythonhosted.org/packages/a7/64/889100848dea8a797215dbacbcf15367e2bd797b879aaf9df5c78d7c3200/aiohappyeyeballs-2.3.7.tar.gz
 Summary  : Happy Eyeballs for asyncio
 Group    : Development/Tools
 License  : Python-2.0 Python-2.0.1
@@ -82,15 +82,15 @@ python3 components for the pypi-aiohappyeyeballs package.
 
 
 %prep
-%setup -q -n aiohappyeyeballs-2.3.6
-cd %{_builddir}/aiohappyeyeballs-2.3.6
+%setup -q -n aiohappyeyeballs-2.3.7
+cd %{_builddir}/aiohappyeyeballs-2.3.7
 
 %build
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1723783477
+export SOURCE_DATE_EPOCH=1723902054
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
