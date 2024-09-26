@@ -1,5 +1,5 @@
 PKG_NAME := pypi-aiohappyeyeballs
-URL = https://files.pythonhosted.org/packages/2d/f7/22bba300a16fd1cad99da1a23793fe43963ee326d012fdf852d0b4035955/aiohappyeyeballs-2.4.0.tar.gz
+URL = https://files.pythonhosted.org/packages/ce/40/cdd5b2e98e4d97c9b3b8940c3467e9efec922200c1ba5909cdaeb1ffd12e/aiohappyeyeballs-2.4.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
